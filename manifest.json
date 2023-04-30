@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-local-llm",
+	"name": "Obsidian Local LLM",
+	"version": "1.0.0",
+	"minAppVersion": "1.1.0",
+	"description": " Obsidian Local LLM is a plugin for Obsidian that provides access to a powerful neural network, allowing users to generate text in a wide range of styles and formats using a local LLM.",
+	"author": "Ivan Zatevakhin",
+	"authorUrl": "https://github.com/zatevakhin",
+	"isDesktopOnly": true
+}
