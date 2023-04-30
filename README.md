@@ -17,6 +17,26 @@ pip install llama-cpp-python[server]
 ### Large Language Models
 Folow the [link to the repository](https://github.com/underlines/awesome-marketing-datascience/blob/master/awesome-ai.md), click 'Show Table with models' and choose the model which is suitable for you and in the '[ggml](https://github.com/ggerganov/ggml)' format.
 
+## Install plugin
+For now, is available two ways how to install the plugin
+
+### Install using [BRAT](https://github.com/TfTHacker/obsidian42-brat)
+1. Install BRAT trough Community Plugins
+2. Open BRAT settings
+3. Click 'Add Beta plugin'
+4. Insert link to repository
+5. Click 'Add Plugin'
+5. Enable 'Obsidian Local LLM' plugin in Community Plugins
+
+### Install from sources
+1. Clone repository `git clone https://github.com/zatevakhin/obsidian-local-llm`
+2. Change directory `cd obsidian-local-llm`
+3. Install dependencies `npm install`
+4. Build plugin `npm build`
+5. Create `obsidian-local-llm` directory in your vault `$HOME/MyObsidian/.obsidian/plugins`
+6. Move `main.js`, `manifest.json`, and `styles.css` into that directory
+7. Open Obsidian **>** Settings **>** Community Plugins **>** Toggle **Obsidian Local LLM**
+
 ## Usage
 To use the plugin, follow these steps:
 
