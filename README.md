@@ -4,7 +4,10 @@ Obsidian Local LLM is a plugin for Obsidian that provides access to a powerful n
 
 The plugin allows users to input a prompt as a canvas block and receive answers in the new block. The LLM can be configured to use a variety of models and settings, allowing users to customize the output to their specific needs.
 
-https://user-images.githubusercontent.com/12279112/235378564-cc962e85-12d9-4f8a-9b9d-415632d39c53.mp4
+![image](https://user-images.githubusercontent.com/12279112/235395999-40b9c136-5962-4fc9-9273-4657b1e8c3bf.png)
+
+See [gallery](https://github.com/zatevakhin/obsidian-local-llm/edit/main/README.md#gallery) below.
+
 
 ## Dependencies
 The plugin uses a [server](https://github.com/abetlen/llama-cpp-python/blob/main/llama_cpp/server/__main__.py) from [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) as the API backend, which relies on the [llama.cpp](https://github.com/ggerganov/llama.cpp) library. The plugin also requires Python 3.7 or later and the pip package manager to be installed on your system.
@@ -50,6 +53,13 @@ To use the plugin, follow these steps:
 4. Use Right-click on the block to open a context menu
 5. Click on the "LLM Instruction" option
 6. Wait for the generated text to appear in the new block
+
+## Gallery
+
+https://user-images.githubusercontent.com/12279112/235378564-cc962e85-12d9-4f8a-9b9d-415632d39c53.mp4
+
+[obsidian-local-llm-canvas-typewriter.webm](https://user-images.githubusercontent.com/12279112/235395542-ee4009ef-9b8d-4944-8c49-08bda95e5988.webm)
+
 
 
 ## Contributing
