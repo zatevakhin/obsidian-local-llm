@@ -10,6 +10,7 @@ export interface LocalLlmPluginSettings {
     repeat_penalty: number;
     stops: Array<string>;
     display_metadata: boolean;
+    typewriter_mode: boolean;
     success_color: string;
     warning_color: string;
     error_color: string;
@@ -24,6 +25,7 @@ export const DEFAULT_SETTINGS: LocalLlmPluginSettings = {
     repeat_penalty: 1.1,
     stops: ["###"],
     display_metadata: false,
+    typewriter_mode: true,
     success_color: "#44CF6E",
     warning_color: "#E0DE71",
     error_color: "#FB464C"
@@ -144,6 +146,20 @@ export class LocalLlmSettingTab extends PluginSettingTab {
                 .setValue(this.plugin.settings.stops.join("\n"))
                 .onChange(async (value) => {
                     this.plugin.settings.stops = (value.length > 0) ? value.split("\n") : [];
+
+                    await this.plugin.saveSettings();
+                })
+        });
+
+        new Setting(containerEl)
+        .setName("Typewriter mode")
+        .setDesc("If enabled, it will type token-by-token in real time. If not will send a response at once after the generation is completed.")
+
+        .addToggle((text) => {
+            text
+                .setValue(this.plugin.settings.typewriter_mode)
+                .onChange(async (value) => {
+                    this.plugin.settings.typewriter_mode = value;
 
                     await this.plugin.saveSettings();
                 })
