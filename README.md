@@ -60,6 +60,8 @@ https://user-images.githubusercontent.com/12279112/235378564-cc962e85-12d9-4f8a-
 
 [obsidian-local-llm-canvas-typewriter.webm](https://user-images.githubusercontent.com/12279112/235395542-ee4009ef-9b8d-4944-8c49-08bda95e5988.webm)
 
+![image](https://user-images.githubusercontent.com/12279112/235440109-9c62e3ee-b79f-4a37-b8a3-94e3334e37b1.png)
+
 
 
 ## Contributing
