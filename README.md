@@ -6,7 +6,7 @@ The plugin allows users to input a prompt as a canvas block and receive answers 
 
 ![image](https://user-images.githubusercontent.com/12279112/235395999-40b9c136-5962-4fc9-9273-4657b1e8c3bf.png)
 
-See [gallery](https://github.com/zatevakhin/obsidian-local-llm/edit/main/README.md#gallery) below.
+See [gallery](https://github.com/zatevakhin/obsidian-local-llm#gallery) below.
 
 
 ## Dependencies
